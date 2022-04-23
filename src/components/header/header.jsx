@@ -77,7 +77,7 @@ const HeaderSection = (props) => {
                 </li>
                 <li> <a href={`/`}><p>home</p></a></li>
                 <li >
-                    <p className='menu-incomes' onClick={handleIncomesClick}>test incomes <BurgerButton loc='income'/> <br/><br/></p>
+                    <p className='menu-incomes' onClick={handleIncomesClick}>test incomes <BurgerButton loc='income'/></p>
                     <ul className='incomes navdeck hide-me'>
                         <li>1,2,3</li>
                     </ul>
