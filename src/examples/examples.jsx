@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 class TodoApp extends React.Component {
     constructor(props) {
       super(props);
@@ -60,4 +63,4 @@ class TodoApp extends React.Component {
     }
   }
   
-  root.render(<TodoApp />);
+  export default TodoApp;
