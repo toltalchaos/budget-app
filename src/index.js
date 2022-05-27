@@ -4,7 +4,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import FootSection from './components/footer/footer';
-import HeaderSection from './components/header/header';
 import styled from 'styled-components'
 
 const APPLICATION = styled.div`
@@ -18,7 +17,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <APPLICATION>
-      <HeaderSection />
       <App />
       <FootSection />
     </APPLICATION>
