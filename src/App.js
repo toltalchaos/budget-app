@@ -9,6 +9,7 @@ import HeaderSection from './components/header/header';
 
 function App() {
   return (
+    // https://blog.logrocket.com/react-router-v6/#:~:text=Creating%20the%20first%20route%20with%20React%20Router%20v6,first%20component%20to%20import%20from%20the%20react-router-dom%20library.
     <AuthProvider>
       <BrowserRouter>
       <Routes>
